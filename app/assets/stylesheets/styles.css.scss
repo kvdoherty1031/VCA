@@ -37,6 +37,25 @@ body {
 	float: left;
 }
 
+#PortfolioCategories {
+	padding-top: 50px;
+	padding-left: 25px;
+
+	}
+
+#menu {
+float: left;
+padding: 0px 0 0 0px;
+display: block;
+}
+
+#portfolio_menu
+{
+padding: 10px;
+width: 100px;
+height: 100px;
+}
+
 @import 'bootstrap-responsive';
 
 .navbar-inner {
