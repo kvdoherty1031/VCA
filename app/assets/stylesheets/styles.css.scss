@@ -7,6 +7,8 @@ $navbarBackground: white;
 
 @import 'bootstrap';
 
+@import 'bootstrap-responsive';
+
 body {
 
 	padding-top: 60px;
@@ -37,15 +39,29 @@ body {
 	float: left;
 }
 
-#PortfolioCategories {
-	padding-top: 50px;
+#ProjectDescription {
+	padding-top: 30px;
 	padding-left: 25px;
+	font-size: 15px;
+	text-align: top;
+	text-align: center;
+	margin-top: 3px;
+	}
 
+#ProjectDescriptionHome {
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 15px;
+	text-align: top;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
 	}
 
 #menu {
 float: left;
-padding: 0px 0 0 0px;
+padding-top: 15px;
 display: block;
 }
 
@@ -56,7 +72,12 @@ width: 100px;
 height: 100px;
 }
 
-@import 'bootstrap-responsive';
+#portfoliorow
+{
+padding: 10px;
+width: 200px;
+height: 200px;
+}
 
 .navbar-inner {
 	@include box-shadow(none !important);
@@ -77,8 +98,47 @@ height: 100px;
 
 }
 
-.footer {
+#ProjectCarousel {
+	height: 240px;
+	width: 660px;
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+  	float: none;
+  	padding-left: 70px;
+  	padding-right: 70px;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
 
+}
+
+#ProjectName {
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding-top: 40px;
+
+
+}
+
+#PortfolioTitle {
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding-top: 20px;
+  	padding-top: 10;
+  	}
+
+#thumbs {
+height: 200px;
+width: 200px;
+padding-bottom: 150px;
+margin-left: 50px;
+
+}
+
+
+.footer {
 	margin-top: 50px;
 	margin-bottom: 25px;
 	color: $grayLight;
