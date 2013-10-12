@@ -4,6 +4,7 @@ VCA::Application.routes.draw do
   get 'homeportfolio' => 'pages#homeportfolio'
   get 'apartmentsportfolio' => 'pages#apartmentsportfolio'
   get 'testportfolio' => 'pages#testportfolio'
+  get 'testportfolio2' => 'pages#testportfolio2'
   root :to => 'pages#home'
 
 
