@@ -112,6 +112,21 @@ height: 200px;
 
 }
 
+
+.row .PortfolioHomeThumb {
+
+color: #404040;
+margin: 0 auto;
+text-align: center;
+height: auto;
+width: 350px; 
+padding: 10px;
+border-style: solid;
+border-width: 1px;
+border-color: #404040 
+
+}
+
 #ProjectName {
 	text-align: center;
 	margin-left: auto;
@@ -305,104 +320,9 @@ ul.s-slides li.slideLeft:target {
     z-index: 100;
  
     -webkit-animation-name: slideLeft;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: .75s;
     -webkit-animation-iteration-count: 1;
 }
-
-/* Slide Right */
- 
-@-webkit-keyframes 'slideRight' {
-    0% { left: 500px; }
-    100% { left: 0; }
-}
- 
-ul.s-slides li.slideRight:target {
-    z-index: 100;
- 
-    -webkit-animation-name: slideRight;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
-}
-
-/* Slide Top */
- 
-@-webkit-keyframes 'slideTop' {
-    0% { top: -350px; }
-    100% { top: 0; }
-}
- 
-ul.s-slides li.slideTop:target {
-    z-index: 100;
- 
-    -webkit-animation-name: slideTop;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
-}
-
-/* Slide Bottom */
- 
-@-webkit-keyframes 'slideBottom' {
-    0% { top: 350px; }
-    100% { top: 0; }
-}
- 
-ul.s-slides li.slideBottom:target {
-    z-index: 100;
- 
-    -webkit-animation-name: slideBottom;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
-}
-
-
-/* Zoom In */
- 
-@-webkit-keyframes 'zoomIn' {
-    0% { -webkit-transform: scale(0.1); }
-    100% { -webkit-transform: none; }
-}
- 
-ul.s-slides li.zoomIn:target {
-    z-index: 100;
-    top: 4px;
- 
-    -webkit-animation-name: zoomIn;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
-}
-
-/* Zoom Out */
- 
-@-webkit-keyframes 'zoomOut' {
-    0% { -webkit-transform: scale(2); }
-    100% { -webkit-transform: none; }
-}
- 
-ul.s-slides li.zoomOut:target {
-    z-index: 100;
- 
-    -webkit-animation-name: zoomOut;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
-}
-
-
-/* Rotate */
- 
-@-webkit-keyframes 'rotate' {
-    0% { -webkit-transform: rotate(-360deg) scale(0.1); }
-    100% { -webkit-transform: none; }
-}
- 
-ul.s-slides li.rotate:target {
-    z-index: 100;
-    top: 4px;
- 
-    -webkit-animation-name: rotate;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
-}
-
 
 /* Not Target */
  
