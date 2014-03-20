@@ -70,6 +70,7 @@ display: block;
 padding: 10px;
 width: 100px;
 height: 100px;
+
 }
 
 #portfoliorow
@@ -77,6 +78,7 @@ height: 100px;
 padding: 10px;
 width: 200px;
 height: 200px;
+
 }
 
 .navbar-inner {
@@ -126,6 +128,7 @@ border-style: none;
 border:2px solid;
 border-radius:10px;
 
+
 }
 
 #ProjectName {
@@ -141,6 +144,7 @@ border-radius:10px;
   	margin-right: auto;
   	padding-top: 20px;
   	padding-top: 10;
+    color: $gray;
 }
 
 #thumbs {
