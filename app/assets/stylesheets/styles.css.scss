@@ -112,9 +112,6 @@ height: 200px;
 
 }
 
-
-
-
 .PortfolioHomeThumb {
 
 margin: 0 auto;
@@ -127,8 +124,10 @@ color: #FFFFFF;
 border-style: none;
 border:2px solid;
 border-radius:10px;
+}
 
-
+.PortfolioPicture {
+border-radius:50px; 
 }
 
 #ProjectName {
