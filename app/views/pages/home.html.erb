@@ -19,33 +19,24 @@
 
 <!--  Carousel - consult the Twitter Bootstrap docs at 
       http://twitter.github.com/bootstrap/javascript.html#carousel -->
+
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="carousel-inner">
     <div class="item active"><!-- class of active since it's the first item -->
-      <%=   image_tag( "REDDINGPORTFOLIO.JPG", :size => "600x200", :alt => "Picture") %>
-      <div class="carousel-caption">
-        <p>Picture 1 of 4</p>
-      </div>
+      <%= image_tag( "Apartment_036.jpg", :alt => "Picture") %>
     </div>
     <div class="item">
-      <img src= "REDDINGPORTFOLIO.JPG" alt="some text" width="400" height="400" />
-      <div class="carousel-caption">  
-        <p>Picture 2 of 4</p>
-      </div>
+      <%= image_tag( "Apartment_015.jpg", :alt => "Picture") %>
     </div>
     <div class="item">
-      <img src="REDDINGPORTFOLIO-27.JPG" />
-      <div class="carousel-caption">
-        <p>Picture 3 of 4</p>
-      </div>
+      <%= image_tag( "Apartment_003.jpg", :alt => "Picture") %>
     </div>
     <div class="item">
-      <img src="REDDINGPORTFOLIO-26.JPG"  />
-      <div class="carousel-caption">
-        <p>Picture 4 of 4</p>
-      </div>
+      <%= image_tag( "Apartment_035.jpg", :alt => "Picture") %>
     </div>
-  </div><!-- /.carousel-inner -->
+  </div>
+
+  <!-- /.carousel-inner -->
   <!--  Next and Previous controls below
         href values must reference the id for this carousel -->
     <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
@@ -69,11 +60,11 @@
             <div class="span6">
               <a href='homeportfolio'>
               <div class="PortfolioHomeThumb">
-                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWW6CMKVgJ79dfTyIOofvMdbITxr83MQVjVskGl-il2OD41UL4" alt="">
-                <font color="#696969">
+                <%= image_tag( "Apartment_017.jpg", :alt => "Picture") %>
+                <font color="#FFFFFF">
                 <h3>Portfolio of Homes</h3>
                 <p>
-                 jkhdfjhsdf kjshdf jskdhf sjkdhf sjdhf sjkdhf kjsdhf jksdhf kjsdhf ksjdhf ksjdhf ksjdhf kjsdhf ksjdhf kjshdfkjsdhf kjshfksjdhf sdhfk sdfh ksjdhf ksjdhf skjdhfs dphkljshdf 
+                 VCA has designed and managed the construction of projects across the northeast
                 </font>
                 </p>
                 </a>
@@ -82,11 +73,11 @@
             <div class="span6">
                <a href='apartmentsportfolio'>
               <div class="PortfolioHomeThumb">
-                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWW6CMKVgJ79dfTyIOofvMdbITxr83MQVjVskGl-il2OD41UL4" alt="">
-                <font color="#696969">
+                <%= image_tag( "Apartment_018.jpg", :alt => "Picture") %>
+                <font color="#FFFFFF">
                 <h3>Portfolio of Apartments</h3>
                 <p>
-                   jkhdfjhsdf kjshdf jskdhf sjkdhf sjdhf sjkdhf kjsdhf jksdhf kjsdhf ksjdhf ksjdhf ksjdhf kjsdhf ksjdhf kjshdfkjsdhf kjshfksjdhf sdhfk sdfh ksjdhf ksjdhf skjdhfs dphkljshdf 
+                   VCA speacializes in complete renovations of luxury apartments in New York City
                  </font>
                 </p>
                 </a>
